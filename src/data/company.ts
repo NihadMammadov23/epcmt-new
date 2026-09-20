@@ -80,6 +80,10 @@ export const standards = [
   "DNV",
   "QOST",
   "AzDTN",
+  "EN Eurocode",
+  "ASCE 7-16",
+  "AISC 360-16",
+  "ACI 348",
 ] as const;
 
 export const process = [
