@@ -36,7 +36,7 @@ export function Hero() {
           <div className="flex flex-col gap-2">
             <span className="type-mono">{company.name}</span>
             <span className="type-mono text-muted">
-              Engineering / Construction / Management
+              ENGINEERING / CONSTRUCTION / MANAGEMENT
             </span>
           </div>
           <div className="flex flex-col items-end gap-2 text-right">

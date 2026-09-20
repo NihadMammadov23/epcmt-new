@@ -24,7 +24,7 @@ export default function HomePage() {
           <h2 className="type-statement col-span-12 lg:col-span-7">
             <span className="block overflow-hidden">
               <Reveal as="span" variant="rise" className="block">
-                17 ildən artıq sahə
+                20 ildən artıq sahə
               </Reveal>
             </span>
             <span className="block overflow-hidden">

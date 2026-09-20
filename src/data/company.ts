@@ -1,9 +1,9 @@
 export const company = {
   name: "EPCMT",
-  descriptor: "Engineering / Construction / Management",
+  descriptor: "ENGINEERING / CONSTRUCTION / MANAGEMENT",
   founded: 2023,
   experienceSince: 2008,
-  experienceYears: "17+",
+  experienceYears: "20+",
   country: "Azərbaycan",
   address: "Rüstəm Rüstəmov, Bakı 1181",
   phone: "+994 10 212 91 62",
@@ -15,6 +15,7 @@ export const company = {
 export const navigation = [
   { label: "Ana Səhifə", href: "/" },
   { label: "Haqqımızda", href: "/haqqimizda" },
+  { label: "Sertifikatlar", href: "/sertifikatlar" },
   { label: "Xidmətlər", href: "/xidmetler" },
   { label: "Layihələr", href: "/layiheler" },
   { label: "Qalereya", href: "/qalereya" },
