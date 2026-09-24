@@ -83,7 +83,7 @@ export default function CertificationsPage() {
 
                 <Reveal variant="fade" delay={160} className="mt-16">
                     <ArrowLink href="/elaqe" tone="muted">
-                        Bizimlə əlaqə
+                        Sənədlər barədə sual üçün əlaqə
                     </ArrowLink>
                 </Reveal>
             </section>

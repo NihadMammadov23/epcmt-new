@@ -5,6 +5,9 @@ export type Service = {
   summary: string;
   image: string;
   items: string[];
+  /** Marked "Perspektiv xidmət" in the company's own materials — a stated
+   *  forward-looking capability rather than an actively delivered one. */
+  perspective?: boolean;
 };
 
 export const services: Service[] = [
@@ -77,6 +80,7 @@ export const services: Service[] = [
       "İstehsalatda layihə tələblərinə nəzarət və yoxlama",
       "Planlaşdırma və hesabatlılıq",
     ],
+    perspective: true,
   },
   {
     index: "05",
@@ -93,6 +97,7 @@ export const services: Service[] = [
       "Shop / fabrication drawing hazırlanması",
       "As-built drawing hazırlanması",
     ],
+    perspective: true,
   },
   {
     index: "06",
@@ -117,6 +122,7 @@ export const services: Service[] = [
       "Korroziyadan mühafizə",
       "Rezervuar, çən və neft-qaz-su saxlama anbarlarının tikintisi",
     ],
+    perspective: true,
   },
 ];
 

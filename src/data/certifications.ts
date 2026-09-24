@@ -6,13 +6,16 @@ export type Credential = {
   expires?: string;
 };
 
-// Təsdiqlənmiş məlumat əlavə olunduqca bu massivlərə yazılır.
-// Sıra vacib deyil — səhifə avtomatik nömrələyir.
-
+// Mənbə: Azərbaycan Respublikası İqtisadiyyat Nazirliyi tərəfindən verilmiş lisenziya.
 export const certifications: Credential[] = [
-  // { name: "...", issuer: "...", number: "...", issued: "...", expires: "..." },
+  // Sertifikat məlumatı təsdiqləndikcə bura əlavə olunur.
 ];
 
 export const licenses: Credential[] = [
-  // { name: "...", issuer: "...", number: "...", issued: "...", expires: "..." },
+  {
+    name: "Bina və qurğuların layihələndirilməsi lisenziyası",
+    issuer: "Azərbaycan Respublikası İqtisadiyyat Nazirliyi",
+    number: "EL-311/2025",
+    issued: "22.04.2025",
+  },
 ];

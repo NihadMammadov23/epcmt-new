@@ -12,6 +12,15 @@ export const company = {
   siteUrl: "https://epcmt.az",
 } as const;
 
+// "EPCMT" özü bu beş istiqamətin baş hərflərindən yaranır (mənbə: şirkət təqdimatı).
+export const profile = [
+  { letter: "E", en: "Engineering", az: "Mühəndislik-Layihələndirmə" },
+  { letter: "P", en: "Procurement", az: "Təchizat" },
+  { letter: "C", en: "Construction", az: "Tikinti" },
+  { letter: "M", en: "Management", az: "İdarəetmə" },
+  { letter: "T", en: "Training", az: "Təlim" },
+] as const;
+
 export const navigation = [
   { label: "Ana Səhifə", href: "/" },
   { label: "Haqqımızda", href: "/haqqimizda" },
@@ -83,7 +92,7 @@ export const standards = [
   "EN Eurocode",
   "ASCE 7-16",
   "AISC 360-16",
-  "ACI 348",
+  "ACI 318",
 ] as const;
 
 export const process = [
