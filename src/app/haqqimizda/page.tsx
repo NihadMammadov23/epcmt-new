@@ -11,7 +11,7 @@ import { company } from "@/data/company";
 export const metadata: Metadata = {
   title: "Haqqımızda",
   description:
-    "EPCMT 2023-cü ildə tikinti sektorunda 17 ildən artıq təcrübəyə malik mütəxəssislər tərəfindən yaradılıb. Şirkətin tarixçəsi, dəyərləri və yanaşması.",
+    "EPCMT 2023-cü ildə tikinti sektorunda 20 ildən artıq təcrübəyə malik mütəxəssislər tərəfindən yaradılıb. Şirkətin tarixçəsi, dəyərləri və yanaşması.",
   alternates: { canonical: "/haqqimizda" },
   openGraph: {
     title: "Haqqımızda — EPCMT",
@@ -28,7 +28,7 @@ export default function AboutPage() {
         index="01"
         label="Haqqımızda"
         lines={["Bir şirkət.", "Kompleks layihələr"]}
-        intro="17 ildən artıq sahə təcrübəsi 2008-ci ildən formalaşıb, 2023-cü ildə isə vahid struktur altında birləşdirilib."
+        intro="20 ildən artıq sahə təcrübəsi 2008-ci ildən formalaşıb, 2023-cü ildə isə vahid struktur altında birləşdirilib."
         meta={[
           { label: "Təsis", value: String(company.founded) },
           { label: "Sahə təcrübəsi", value: `${company.experienceYears} il` },
@@ -47,7 +47,7 @@ export default function AboutPage() {
 
           <div className="col-span-12 mt-8 flex flex-col gap-6 lg:col-span-6 lg:col-start-7 lg:mt-1">
             <Reveal variant="rise" className="type-lead max-w-[54ch]">
-              Tikinti sektorunda layihə meneceri kimi 17 ildən artıq fəaliyyət
+              Tikinti sektorunda layihə meneceri kimi 20 ildən artıq fəaliyyət
               göstərmişik. Bu müddət ərzində bir çox əhəmiyyətli tikinti
               layihəsini icra etmişik.
             </Reveal>
