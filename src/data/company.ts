@@ -6,8 +6,8 @@ export const company = {
   experienceYears: "20+",
   country: "Azərbaycan",
   address: "Rüstəm Rüstəmov, Bakı 1181",
-  phone: "+994 10 212 91 62",
-  phoneHref: "+994102129162",
+  phone: "+99499999999",
+  phoneHref: "+99999999999",
   email: "info@epcmt.az",
   siteUrl: "https://epcmt.az",
 } as const;
